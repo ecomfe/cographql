@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+const meow = require('meow');
+
+const help = `
+  Usage: cographql [options]
+
+  Options:
+    -h, --help                  output usage information
+    -s, --schema [path]         schema definition file path
+    -w, --watch                 reload schema on changes
+    -p, --port                  port to use [default: 8800]
+    -a, --address               address to use [default: 0.0.0.0]
+    -v, --version               output the version number
+    -e, --endpoint              graphql dev server
+
+  Examples:
+    $ cographql -w -s schema.graphql -e http://dev.myserver.com/graphql
+`;
+
+const cli = meow(help, {
+    alias: {
+        h: 'help',
+        s: 'schema',
+        w: 'watch',
+        p: 'port',
+        a: 'address',
+        v: 'version'
+    }
+});
+
+cli.showHelp();

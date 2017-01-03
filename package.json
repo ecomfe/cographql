@@ -1,0 +1,19 @@
+{
+  "name": "cographql",
+  "version": "0.0.1",
+  "description": "GraphQL collaboration tools.",
+  "main": "index.js",
+  "bin": {
+    "cographql": "./cli",
+    "cgql": "./cli"
+  },
+  "author": {
+    "name": "Firede",
+    "email": "firede@firede.us"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphiql": "^0.8.1",
+    "meow": "^3.7.0"
+  }
+}
