@@ -1,6 +1,7 @@
 node_modules/
 .vscode/
 .idea/
+dist/
 .DS_Store
 *.log
 yarn.lock

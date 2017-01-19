@@ -1,32 +1,43 @@
 #!/usr/bin/env node
 
-const meow = require('meow');
+const yargs = require('yargs');
+const path = require('path');
 
-const help = `
-  Usage: cographql [options]
+let argv = yargs
+    .updateLocale('en')
+    .usage(`Usage: $0 [options]`)
+    .help('help')
+    .alias('help', 'h')
+    .version(function() {
+        return require(path.join(__dirname, './package.json')).version;
+    })
+    .alias('version', 'v')
+    .options({
+        schema: {
+            alias: 's',
+            description: '<filename> target GraphQL schema file',
+            requiresArg: true,
+            required: true
+        },
+        endpoint: {
+            alias: 'e',
+            description: '[url] implemented GraphQL endpoint',
+            requiresArg: true,
+            required: false
+        },
+        address: {
+            alias: 'a',
+            description: 'address to use [default: 0.0.0.0]',
+            requiresArg: true,
+            required: false
+        },
+        port: {
+            alias: 'p',
+            description: 'port to use [default: 8800]',
+            requiresArg: true,
+            required: false
+        }
+    })
+    .argv;
 
-  Options:
-    -h, --help                  output usage information
-    -s, --schema [path]         schema definition file path
-    -w, --watch                 reload schema on changes
-    -p, --port                  port to use [default: 8800]
-    -a, --address               address to use [default: 0.0.0.0]
-    -v, --version               output the version number
-    -e, --endpoint              graphql dev server
-
-  Examples:
-    $ cographql -w -s schema.graphql -e http://dev.myserver.com/graphql
-`;
-
-const cli = meow(help, {
-    alias: {
-        h: 'help',
-        s: 'schema',
-        w: 'watch',
-        p: 'port',
-        a: 'address',
-        v: 'version'
-    }
-});
-
-cli.showHelp();
+console.dir(argv);

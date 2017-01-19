@@ -5,3 +5,9 @@
 # CoGraphQL
 
 GraphQL collaboration tools.
+
+# Usage
+
+```bash
+cographql --schema ./myTargetSchema.graphql --endpoint http://my.dev.server/graphql
+```
