@@ -1,7 +1,11 @@
-node_modules/
-.vscode/
-.idea/
-dist/
+node_modules
+.vscode
+.idea
+dist
+coverage
+output
 .DS_Store
+Thumbs.db
 *.log
+*.swp
 yarn.lock
