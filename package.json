@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "fecs lib test/**/*.spec.js --type=js",
     "compile": "shx rm -rf dist && babel lib -d dist --copy-files",
-    "test": "npm run compile && _mocha --compilers js:babel-core/register --recursive",
+    "test": "npm run compile && _mocha --compilers js:babel-core/register --recursive && npm run coverage",
     "coverage": "npm run compile && babel-node ./node_modules/.bin/babel-istanbul cover _mocha 'test/**/*.spec.@(js|es|es6)'",
     "coveralls": "shx cat ./coverage/lcov.info | coveralls",
     "watch": "babel lib -d dist --copy-files -w",
