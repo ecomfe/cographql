@@ -24,6 +24,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "babel-polyfill": "^6.20.0",
     "graphiql": "^0.8.1",
     "graphql": "^0.8.2",
     "isomorphic-fetch": "^2.2.1",
