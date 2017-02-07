@@ -8,7 +8,7 @@ GraphQL collaboration tools. *(Work In Progress)*
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![NPM version][npm-image]][npm-url]
 
-# Usage
+## Usage
 
 ```bash
 cographql --schema ./myTargetSchema.graphql --endpoint http://my.dev.server/graphql
@@ -20,3 +20,16 @@ cographql --schema ./myTargetSchema.graphql --endpoint http://my.dev.server/grap
 [coveralls-image]: https://img.shields.io/coveralls/graphqlhelp/cographql/master.svg
 [npm-url]: https://www.npmjs.com/package/cographql
 [npm-image]: https://img.shields.io/npm/v/cographql.svg
+
+## Development
+
+```bash
+# watch & compile files
+npm run watch
+
+# lint by fecs
+npm run lint
+
+# test & coverage
+npm test
+```
