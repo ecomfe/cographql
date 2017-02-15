@@ -14,10 +14,10 @@ GraphQL collaboration tools. *(Work In Progress)*
 cographql --schema ./myTargetSchema.graphql --endpoint http://my.dev.server/graphql
 ```
 
-[travis-url]: https://travis-ci.org/graphqlhelp/cographql
-[travis-image]: https://img.shields.io/travis/graphqlhelp/cographql/master.svg
-[coveralls-url]: https://coveralls.io/github/graphqlhelp/cographql
-[coveralls-image]: https://img.shields.io/coveralls/graphqlhelp/cographql/master.svg
+[travis-url]: https://travis-ci.org/ecomfe/cographql
+[travis-image]: https://img.shields.io/travis/ecomfe/cographql/master.svg
+[coveralls-url]: https://coveralls.io/github/ecomfe/cographql
+[coveralls-image]: https://img.shields.io/coveralls/ecomfe/cographql/master.svg
 [npm-url]: https://www.npmjs.com/package/cographql
 [npm-image]: https://img.shields.io/npm/v/cographql.svg
 
