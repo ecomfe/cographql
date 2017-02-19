@@ -2,6 +2,7 @@
 
 const yargs = require('yargs');
 const path = require('path');
+const dist = require('./dist');
 
 let argv = yargs
     .updateLocale('en')
@@ -40,4 +41,9 @@ let argv = yargs
     })
     .argv;
 
-console.dir(argv);
+// console.log(13123);
+// console.dir(argv);
+
+// let coServer = new dist.CoServer;
+
+// console.log(coServer);
