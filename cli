@@ -1,49 +1,9 @@
 #!/usr/bin/env node
 
-const yargs = require('yargs');
-const path = require('path');
-const dist = require('./dist');
-
-let argv = yargs
-    .updateLocale('en')
-    .usage(`Usage: $0 [options]`)
-    .help('help')
-    .alias('help', 'h')
-    .version(function() {
-        return require(path.join(__dirname, './package.json')).version;
-    })
-    .alias('version', 'v')
-    .options({
-        schema: {
-            alias: 's',
-            description: '<filename> target GraphQL schema file',
-            requiresArg: true,
-            required: true
-        },
-        endpoint: {
-            alias: 'e',
-            description: '[url] implemented GraphQL endpoint',
-            requiresArg: true,
-            required: false
-        },
-        address: {
-            alias: 'a',
-            description: 'address to use [default: 0.0.0.0]',
-            requiresArg: true,
-            required: false
-        },
-        port: {
-            alias: 'p',
-            description: 'port to use [default: 8800]',
-            requiresArg: true,
-            required: false
-        }
-    })
-    .argv;
-
-// console.log(13123);
-// console.dir(argv);
-
-// let coServer = new dist.CoServer;
-
-// console.log(coServer);
+/* eslint-disable fecs-no-require */
+require('babel-register');
+const startup = process.env.NODE_ENV === 'development'
+    ? './lib/cli.js'
+    : './dist/cli.js'
+require(startup);
+/* eslint-enable fecs-no-require */

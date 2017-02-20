@@ -24,8 +24,15 @@ cographql --schema ./myTargetSchema.graphql --endpoint http://my.dev.server/grap
 ## Development
 
 ```bash
+# install dependencies
+# 如果没有 yarn，先用 npm i -g yarn 安装
+yarn
+
 # watch & compile files
 npm run watch
+
+# dev, run web server
+npm run dev
 
 # lint by fecs
 npm run lint

@@ -1,0 +1,46 @@
+/* csshint-disable disallow-important */
+
+@font-face {
+    font-family: "iconfont";
+    src: url(iconfont.eot?t=1472370709);
+    /* IE9*/
+    src: url(iconfont.eot?t=1472370709#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(iconfont.woff?t=1472370709) format('woff'), /* chrome, firefox */
+    url(iconfont.ttf?t=1472370709) format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url(iconfont.svg?t=1472370709#iconfont) format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-soundminus:before {
+    content: "\e600";
+}
+.icon-sound:before {
+    content: "\e601";
+}
+.icon-mute:before {
+    content: "\e602";
+}
+.icon-soundplus:before {
+    content: "\e603";
+}
+.icon-soundminus1:before {
+    content: "\e604";
+}
+.icon-soundmute:before {
+    content: "\e605";
+}
+.icon-soundminus2:before {
+    content: "\e606";
+}
+.icon-mute1:before {
+    content: "\e607";
+}
