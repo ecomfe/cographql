@@ -15,7 +15,7 @@
     "coveralls": "shx cat ./coverage/lcov.info | coveralls",
     "watch": "babel lib -d dist --copy-files -w",
     "prepublish": "npm run compile",
-    "dev": "NODE_ENV=development ./cli -s ./data/user.schema"
+    "dev": "cd example && NODE_ENV=development cgql -s ./data/user.schema"
   },
   "maintainers": [
     {
