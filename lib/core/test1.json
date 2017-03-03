@@ -11,7 +11,7 @@
                     "end": 9
                 }
             },
-            "interfaces": [],
+            "interfaces": ["sd"],
             "directives": [],
             "fields": [
                 {
