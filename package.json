@@ -8,7 +8,7 @@
     "cgql": "./cli"
   },
   "scripts": {
-    "lint": "fecs lib test/**/*.spec.js --type=js",
+    "lint": "fecs lib test/**/*.spec.js --type=js --rule",
     "compile": "shx rm -rf dist && babel lib -d dist --copy-files",
     "test": "npm run compile && _mocha --compilers js:babel-core/register --recursive && npm run coverage",
     "coverage": "npm run compile && babel-node ./node_modules/.bin/babel-istanbul cover _mocha 'test/**/*.spec.@(js|es|es6)'",
@@ -16,6 +16,7 @@
     "watch": "babel lib -d dist --copy-files -w",
     "prepublish": "npm run compile",
     "dev": "cd example && cgql init -s ./data/user.graphql",
+    "wl": "cd example && cgql init -s ./data/user.graphql -e http://localhost:8003/graphql",
     "dev1": "cd example && nodemon ../dist/cli.js init -s ./data/user.graphql"
   },
   "maintainers": [
@@ -49,6 +50,7 @@
     "koa-onerror": "^3.0.2",
     "koa-router": "^7.0.1",
     "koa-static": "^2.1.0",
+    "node-fetch": "^1.6.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "reqwest": "^2.0.5",
