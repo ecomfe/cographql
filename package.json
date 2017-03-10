@@ -17,8 +17,7 @@
     "prepublish": "npm run compile",
     "dev": "cd example && cgql init -s ./data/user.graphql",
     "wl": "cd example && cgql init -s ./data/user.graphql -e http://localhost:8003/graphql",
-    "dev1": "cd example && nodemon ../dist/cli.js init -s ./data/user.graphql",
-    "dev2": "cd example && set NODE_ENV=development && cgql init -s ./data/user.graphql"
+    "dev1": "cd example && nodemon ../dist/cli.js init -s ./data/user.graphql"
   },
   "maintainers": [
     {
