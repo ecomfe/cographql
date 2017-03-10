@@ -1,6 +1,6 @@
 {
-    "_queryType": "RootQuery",
-    "_mutationType": null,
+    "_queryType": "Query",
+    "_mutationType": "Mutation",
     "_subscriptionType": null,
     "_directives": [
         {
@@ -53,17 +53,16 @@
         }
     ],
     "_typeMap": {
-        "RootQuery": "RootQuery",
-        "ID": "ID",
-        "User": "User",
-        "String": "String",
-        "List": "List",
+        "Query": "Query",
+        "Post": "Post",
         "Int": "Int",
-        "Boolean": "Boolean",
-        "Task": "Task",
+        "String": "String",
+        "Author": "Author",
+        "Mutation": "Mutation",
         "__Schema": "__Schema",
         "__Type": "__Type",
         "__TypeKind": "__TypeKind",
+        "Boolean": "Boolean",
         "__Field": "__Field",
         "__InputValue": "__InputValue",
         "__EnumValue": "__EnumValue",

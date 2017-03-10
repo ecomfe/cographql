@@ -1,38 +1,25 @@
-# type User {
-#     id: String # id
-#     name: String #name
-# }
-#
-# type Query {
-#     user(id: String): User
-# }
-
-type User {
-    id: ID!
-    name: String
-    lists: [List]
+type Author {
+  id: Int! # the ! means that every author object _must_ have an id
+  name: String
+  posts: [Post] # the list of Posts by this author
 }
 
-type List {
-    id: ID!
-    name: String
-    owner: User
-    incomplete_count: Int
-    tasks(completed: Boolean): [Task]
+type Post {
+  id: Int!
+  title: String
+  author: Author
+  votes: Int
 }
 
-type Task {
-    id: ID!
-    text: String
-    completed: Boolean
-    list: List
+# the schema allows the following query:
+type Query {
+  posts: [Post]
+  author(id: Int!): Author
 }
 
-type RootQuery {
-    user(id: ID): User
-    users(num: Int): [User]
-}
-
-schema {
-    query: RootQuery
+# this schema allows the following mutation:
+type Mutation {
+  upvotePost (
+    postId: Int!
+  ): Post
 }
