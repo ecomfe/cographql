@@ -1,0 +1,73 @@
+{
+    "_queryType": "Query",
+    "_mutationType": "Mutation",
+    "_subscriptionType": null,
+    "_directives": [
+        {
+            "name": "skip",
+            "description": "Directs the executor to skip this field or fragment when the `if` argument is true.",
+            "locations": [
+                "FIELD",
+                "FRAGMENT_SPREAD",
+                "INLINE_FRAGMENT"
+            ],
+            "args": [
+                {
+                    "name": "if",
+                    "description": "Skipped when true.",
+                    "type": "Boolean!"
+                }
+            ]
+        },
+        {
+            "name": "include",
+            "description": "Directs the executor to include this field or fragment only when the `if` argument is true.",
+            "locations": [
+                "FIELD",
+                "FRAGMENT_SPREAD",
+                "INLINE_FRAGMENT"
+            ],
+            "args": [
+                {
+                    "name": "if",
+                    "description": "Included when true.",
+                    "type": "Boolean!"
+                }
+            ]
+        },
+        {
+            "name": "deprecated",
+            "description": "Marks an element of a GraphQL schema as no longer supported.",
+            "locations": [
+                "FIELD_DEFINITION",
+                "ENUM_VALUE"
+            ],
+            "args": [
+                {
+                    "name": "reason",
+                    "description": "Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted in [Markdown](https://daringfireball.net/projects/markdown/).",
+                    "type": "String",
+                    "defaultValue": "No longer supported"
+                }
+            ]
+        }
+    ],
+    "_typeMap": {
+        "Query": "Query",
+        "Post": "Post",
+        "Int": "Int",
+        "String": "String",
+        "Author": "Author",
+        "Mutation": "Mutation",
+        "__Schema": "__Schema",
+        "__Type": "__Type",
+        "__TypeKind": "__TypeKind",
+        "Boolean": "Boolean",
+        "__Field": "__Field",
+        "__InputValue": "__InputValue",
+        "__EnumValue": "__EnumValue",
+        "__Directive": "__Directive",
+        "__DirectiveLocation": "__DirectiveLocation"
+    },
+    "_implementations": {}
+}

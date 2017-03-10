@@ -1,8 +1,13 @@
 #!/usr/bin/env node
 
 /* eslint-disable fecs-no-require */
+// require('babel-register');
+// const startup = (process.env.NODE_ENV.indexOf('development') > -1)
+//     ? './lib/cli.js'
+//     : './dist/cli.js'
+// require(startup);
 require('babel-register');
-const startup = (process.env.NODE_ENV.indexOf('development') > -1)
+const startup = process.env.NODE_ENV === 'development'
     ? './lib/cli.js'
     : './dist/cli.js'
 require(startup);
