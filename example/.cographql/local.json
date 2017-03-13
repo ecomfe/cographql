@@ -1,6 +1,6 @@
 {
-    "_queryType": "Query",
-    "_mutationType": "Mutation",
+    "_queryType": "CustomNameQuery",
+    "_mutationType": "CustomNameMutation",
     "_subscriptionType": null,
     "_directives": [
         {
@@ -53,12 +53,12 @@
         }
     ],
     "_typeMap": {
-        "Query": "Query",
+        "CustomNameQuery": "CustomNameQuery",
         "Post": "Post",
         "Int": "Int",
         "String": "String",
         "Author": "Author",
-        "Mutation": "Mutation",
+        "CustomNameMutation": "CustomNameMutation",
         "__Schema": "__Schema",
         "__Type": "__Type",
         "__TypeKind": "__TypeKind",

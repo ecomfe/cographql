@@ -1,0 +1,30 @@
+type Author {
+  id: Int! # the ! means that every author object _must_ have an id
+  name: String
+  posts: [Post] # the list of Posts by this author
+}
+
+type Post {
+  id: Int!
+  title: String
+  author: Author
+  votes: Int
+}
+
+# the schema allows the following query:
+type CustomNameQuery {
+  posts: [Post]
+  author(id: Int!): Author
+}
+
+# this schema allows the following mutation:
+type CustomNameMutation {
+  upvotePost (
+    postId: Int!
+  ): Post
+}
+
+schema {
+  query: CustomNameQuery
+  mutation: CustomNameMutation
+}

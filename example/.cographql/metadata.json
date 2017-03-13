@@ -1,5 +1,5 @@
 {
-    "schemaFile": "/Users/ielgnaw/Workspace/git/my/cographql/example/data/user.graphql",
+    "schemaFile": "/Users/ielgnaw/Workspace/git/my/cographql/example/data/user-another-write.graphql",
     "endpointUrl": "http://localhost:8003/graphql",
     "address": "",
     "port": ""
