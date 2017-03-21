@@ -1,0 +1,50 @@
+[
+    {
+        "kind": "E",
+        "path": [
+            "_queryType"
+        ],
+        "lhs": "CustomNameQuery",
+        "rhs": "Query"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "_mutationType"
+        ],
+        "lhs": "CustomNameMutation",
+        "rhs": "Mutation"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "_typeMap",
+            "CustomNameQuery"
+        ],
+        "lhs": "CustomNameQuery"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "_typeMap",
+            "CustomNameMutation"
+        ],
+        "lhs": "CustomNameMutation"
+    },
+    {
+        "kind": "N",
+        "path": [
+            "_typeMap",
+            "Query"
+        ],
+        "rhs": "Query"
+    },
+    {
+        "kind": "N",
+        "path": [
+            "_typeMap",
+            "Mutation"
+        ],
+        "rhs": "Mutation"
+    }
+]

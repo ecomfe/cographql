@@ -16,7 +16,8 @@
     "watch": "babel lib -d dist --copy-files -w",
     "prepublish": "npm run compile",
     "dev": "cd example && cgql init -s ./data/user.graphql",
-    "wl": "cd example && cgql init -s ./data/user-another-write.graphql -e http://localhost:8003/graphql",
+    "wl1": "cd example && cgql init -s ./data/user-another-write.graphql -e http://localhost:8003/graphql",
+    "wl": "cd example && cgql init -s ./data/user.graphql -e http://localhost:8003/graphql",
     "dev1": "cd example && nodemon ../dist/cli.js init -s ./data/user.graphql"
   },
   "maintainers": [
@@ -40,7 +41,7 @@
     "eslint-friendly-formatter": "^2.0.7",
     "graphiql": "^0.8.1",
     "graphql": "^0.8.2",
-    "graphql-tools": "^0.10.0",
+    "graphql-tools": "^0.10.1",
     "isomorphic-fetch": "^2.2.1",
     "koa": "^2.0.0",
     "koa-bodyparser": "^2.3.0",

@@ -13,6 +13,7 @@ type Post {
 
 # the schema allows the following query:
 type CustomNameQuery {
+  post(id: Int!): Post
   posts: [Post]
   author(id: Int!): Author
 }
