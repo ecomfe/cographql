@@ -63,6 +63,7 @@
     "reqwest": "^2.0.5",
     "rider": "^2.0.0",
     "rimraf": "^2.6.1",
+    "uuid": "^3.0.1",
     "yargs": "^6.6.0"
   },
   "devDependencies": {
