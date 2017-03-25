@@ -2,49 +2,2001 @@
     {
         "kind": "E",
         "path": [
-            "_queryType"
+            "definitions",
+            0,
+            "fields",
+            1,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 84,
+        "rhs": 27
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 88,
+        "rhs": 31
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "type",
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 90,
+        "rhs": 33
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "type",
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 96,
+        "rhs": 39
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 90,
+        "rhs": 33
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 96,
+        "rhs": 39
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "loc",
+            "start"
+        ],
+        "lhs": 84,
+        "rhs": 27
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            1,
+            "loc",
+            "end"
+        ],
+        "lhs": 96,
+        "rhs": 39
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 99,
+        "rhs": 42
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 104,
+        "rhs": 47
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "kind"
+        ],
+        "lhs": "NonNullType",
+        "rhs": "ListType"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "type",
+            "kind"
+        ],
+        "lhs": "ListType",
+        "rhs": "NamedType"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "type",
+            "type"
+        ],
+        "lhs": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Post",
+                "loc": {
+                    "start": 107,
+                    "end": 111
+                }
+            },
+            "loc": {
+                "start": 107,
+                "end": 111
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 106,
+        "rhs": 50
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 112,
+        "rhs": 54
+    },
+    {
+        "kind": "N",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "type",
+            "name"
+        ],
+        "rhs": {
+            "kind": "Name",
+            "value": "Post",
+            "loc": {
+                "start": 50,
+                "end": 54
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 106,
+        "rhs": 49
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 113,
+        "rhs": 55
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "loc",
+            "start"
+        ],
+        "lhs": 99,
+        "rhs": 42
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "loc",
+            "end"
+        ],
+        "lhs": 113,
+        "rhs": 55
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            0,
+            "fields"
+        ],
+        "index": 3,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "FieldDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "different",
+                    "loc": {
+                        "start": 151,
+                        "end": 160
+                    }
+                },
+                "arguments": [],
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "String",
+                        "loc": {
+                            "start": 162,
+                            "end": 168
+                        }
+                    },
+                    "loc": {
+                        "start": 162,
+                        "end": 168
+                    }
+                },
+                "directives": [],
+                "loc": {
+                    "start": 151,
+                    "end": 168
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "loc",
+            "end"
+        ],
+        "lhs": 170,
+        "rhs": 57
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "name",
+            "value"
+        ],
+        "lhs": "Post",
+        "rhs": "Mutation"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 177,
+        "rhs": 109
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 181,
+        "rhs": 117
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "name",
+            "value"
+        ],
+        "lhs": "id",
+        "rhs": "upvotePost"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 186,
+        "rhs": 122
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 188,
+        "rhs": 132
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "arguments"
+        ],
+        "index": 0,
+        "item": {
+            "kind": "N",
+            "rhs": {
+                "kind": "InputValueDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "postId",
+                    "loc": {
+                        "start": 133,
+                        "end": 139
+                    }
+                },
+                "type": {
+                    "kind": "NonNullType",
+                    "type": {
+                        "kind": "NamedType",
+                        "name": {
+                            "kind": "Name",
+                            "value": "Int",
+                            "loc": {
+                                "start": 141,
+                                "end": 144
+                            }
+                        },
+                        "loc": {
+                            "start": 141,
+                            "end": 144
+                        }
+                    },
+                    "loc": {
+                        "start": 141,
+                        "end": 145
+                    }
+                },
+                "defaultValue": null,
+                "directives": [],
+                "loc": {
+                    "start": 133,
+                    "end": 145
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "type",
+            "kind"
+        ],
+        "lhs": "NonNullType",
+        "rhs": "NamedType"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "type",
+            "type"
+        ],
+        "lhs": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Int",
+                "loc": {
+                    "start": 190,
+                    "end": 193
+                }
+            },
+            "loc": {
+                "start": 190,
+                "end": 193
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 190,
+        "rhs": 148
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 194,
+        "rhs": 152
+    },
+    {
+        "kind": "N",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "type",
+            "name"
+        ],
+        "rhs": {
+            "kind": "Name",
+            "value": "Post",
+            "loc": {
+                "start": 148,
+                "end": 152
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "loc",
+            "start"
+        ],
+        "lhs": 186,
+        "rhs": 122
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "fields",
+            0,
+            "loc",
+            "end"
+        ],
+        "lhs": 194,
+        "rhs": 152
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            1,
+            "fields"
+        ],
+        "index": 1,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "FieldDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "title",
+                    "loc": {
+                        "start": 219,
+                        "end": 224
+                    }
+                },
+                "arguments": [],
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "String",
+                        "loc": {
+                            "start": 226,
+                            "end": 232
+                        }
+                    },
+                    "loc": {
+                        "start": 226,
+                        "end": 232
+                    }
+                },
+                "directives": [],
+                "loc": {
+                    "start": 219,
+                    "end": 232
+                }
+            }
+        }
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            1,
+            "fields"
+        ],
+        "index": 2,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "FieldDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "author",
+                    "loc": {
+                        "start": 235,
+                        "end": 241
+                    }
+                },
+                "arguments": [],
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "Author",
+                        "loc": {
+                            "start": 243,
+                            "end": 249
+                        }
+                    },
+                    "loc": {
+                        "start": 243,
+                        "end": 249
+                    }
+                },
+                "directives": [],
+                "loc": {
+                    "start": 235,
+                    "end": 249
+                }
+            }
+        }
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            1,
+            "fields"
+        ],
+        "index": 3,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "FieldDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "votes",
+                    "loc": {
+                        "start": 252,
+                        "end": 257
+                    }
+                },
+                "arguments": [],
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "Int",
+                        "loc": {
+                            "start": 259,
+                            "end": 262
+                        }
+                    },
+                    "loc": {
+                        "start": 259,
+                        "end": 262
+                    }
+                },
+                "directives": [],
+                "loc": {
+                    "start": 252,
+                    "end": 262
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "loc",
+            "start"
+        ],
+        "lhs": 172,
+        "rhs": 104
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            1,
+            "loc",
+            "end"
+        ],
+        "lhs": 264,
+        "rhs": 154
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "name",
+            "value"
         ],
         "lhs": "CustomNameQuery",
+        "rhs": "Post"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 312,
+        "rhs": 161
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 327,
+        "rhs": 165
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "name",
+            "value"
+        ],
+        "lhs": "post",
+        "rhs": "id"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 332,
+        "rhs": 170
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 336,
+        "rhs": 172
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "arguments"
+        ],
+        "index": 0,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "InputValueDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "id",
+                    "loc": {
+                        "start": 337,
+                        "end": 339
+                    }
+                },
+                "type": {
+                    "kind": "NonNullType",
+                    "type": {
+                        "kind": "NamedType",
+                        "name": {
+                            "kind": "Name",
+                            "value": "Int",
+                            "loc": {
+                                "start": 341,
+                                "end": 344
+                            }
+                        },
+                        "loc": {
+                            "start": 341,
+                            "end": 344
+                        }
+                    },
+                    "loc": {
+                        "start": 341,
+                        "end": 345
+                    }
+                },
+                "defaultValue": null,
+                "directives": [],
+                "loc": {
+                    "start": 337,
+                    "end": 345
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "type",
+            "kind"
+        ],
+        "lhs": "NamedType",
+        "rhs": "NonNullType"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "type",
+            "name"
+        ],
+        "lhs": {
+            "kind": "Name",
+            "value": "Post",
+            "loc": {
+                "start": 348,
+                "end": 352
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 348,
+        "rhs": 174
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 352,
+        "rhs": 178
+    },
+    {
+        "kind": "N",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "type",
+            "type"
+        ],
+        "rhs": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Int",
+                "loc": {
+                    "start": 174,
+                    "end": 177
+                }
+            },
+            "loc": {
+                "start": 174,
+                "end": 177
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "loc",
+            "start"
+        ],
+        "lhs": 332,
+        "rhs": 170
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            0,
+            "loc",
+            "end"
+        ],
+        "lhs": 352,
+        "rhs": 178
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "name",
+            "value"
+        ],
+        "lhs": "posts",
+        "rhs": "title"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 355,
+        "rhs": 181
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 360,
+        "rhs": 186
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "type",
+            "kind"
+        ],
+        "lhs": "ListType",
+        "rhs": "NamedType"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "type",
+            "type"
+        ],
+        "lhs": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Post",
+                "loc": {
+                    "start": 363,
+                    "end": 367
+                }
+            },
+            "loc": {
+                "start": 363,
+                "end": 367
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 362,
+        "rhs": 188
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 368,
+        "rhs": 194
+    },
+    {
+        "kind": "N",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "type",
+            "name"
+        ],
+        "rhs": {
+            "kind": "Name",
+            "value": "String",
+            "loc": {
+                "start": 188,
+                "end": 194
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "loc",
+            "start"
+        ],
+        "lhs": 355,
+        "rhs": 181
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            1,
+            "loc",
+            "end"
+        ],
+        "lhs": 368,
+        "rhs": 194
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 371,
+        "rhs": 197
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 377,
+        "rhs": 203
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "arguments"
+        ],
+        "index": 0,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "InputValueDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "id",
+                    "loc": {
+                        "start": 378,
+                        "end": 380
+                    }
+                },
+                "type": {
+                    "kind": "NonNullType",
+                    "type": {
+                        "kind": "NamedType",
+                        "name": {
+                            "kind": "Name",
+                            "value": "Int",
+                            "loc": {
+                                "start": 382,
+                                "end": 385
+                            }
+                        },
+                        "loc": {
+                            "start": 382,
+                            "end": 385
+                        }
+                    },
+                    "loc": {
+                        "start": 382,
+                        "end": 386
+                    }
+                },
+                "defaultValue": null,
+                "directives": [],
+                "loc": {
+                    "start": 378,
+                    "end": 386
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "type",
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 389,
+        "rhs": 205
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "type",
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 395,
+        "rhs": 211
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 389,
+        "rhs": 205
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 395,
+        "rhs": 211
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "loc",
+            "start"
+        ],
+        "lhs": 371,
+        "rhs": 197
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "fields",
+            2,
+            "loc",
+            "end"
+        ],
+        "lhs": 395,
+        "rhs": 211
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            2,
+            "fields"
+        ],
+        "index": 3,
+        "item": {
+            "kind": "N",
+            "rhs": {
+                "kind": "FieldDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "votes",
+                    "loc": {
+                        "start": 214,
+                        "end": 219
+                    }
+                },
+                "arguments": [],
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "Int",
+                        "loc": {
+                            "start": 221,
+                            "end": 224
+                        }
+                    },
+                    "loc": {
+                        "start": 221,
+                        "end": 224
+                    }
+                },
+                "directives": [],
+                "loc": {
+                    "start": 214,
+                    "end": 224
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "loc",
+            "start"
+        ],
+        "lhs": 307,
+        "rhs": 156
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            2,
+            "loc",
+            "end"
+        ],
+        "lhs": 397,
+        "rhs": 226
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "name",
+            "value"
+        ],
+        "lhs": "CustomNameMutation",
         "rhs": "Query"
     },
     {
         "kind": "E",
         "path": [
-            "_mutationType"
+            "definitions",
+            3,
+            "name",
+            "loc",
+            "start"
         ],
-        "lhs": "CustomNameMutation",
-        "rhs": "Mutation"
+        "lhs": 449,
+        "rhs": 274
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 467,
+        "rhs": 279
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "name",
+            "value"
+        ],
+        "lhs": "upvotePost",
+        "rhs": "posts"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 472,
+        "rhs": 284
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 482,
+        "rhs": 289
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "arguments"
+        ],
+        "index": 0,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "InputValueDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "postId",
+                    "loc": {
+                        "start": 489,
+                        "end": 495
+                    }
+                },
+                "type": {
+                    "kind": "NonNullType",
+                    "type": {
+                        "kind": "NamedType",
+                        "name": {
+                            "kind": "Name",
+                            "value": "Int",
+                            "loc": {
+                                "start": 497,
+                                "end": 500
+                            }
+                        },
+                        "loc": {
+                            "start": 497,
+                            "end": 500
+                        }
+                    },
+                    "loc": {
+                        "start": 497,
+                        "end": 501
+                    }
+                },
+                "defaultValue": null,
+                "directives": [],
+                "loc": {
+                    "start": 489,
+                    "end": 501
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "type",
+            "kind"
+        ],
+        "lhs": "NamedType",
+        "rhs": "ListType"
     },
     {
         "kind": "D",
         "path": [
-            "_typeMap",
-            "CustomNameQuery"
+            "definitions",
+            3,
+            "fields",
+            0,
+            "type",
+            "name"
         ],
-        "lhs": "CustomNameQuery"
+        "lhs": {
+            "kind": "Name",
+            "value": "Post",
+            "loc": {
+                "start": 507,
+                "end": 511
+            }
+        }
     },
     {
-        "kind": "D",
+        "kind": "E",
         "path": [
-            "_typeMap",
-            "CustomNameMutation"
+            "definitions",
+            3,
+            "fields",
+            0,
+            "type",
+            "loc",
+            "start"
         ],
-        "lhs": "CustomNameMutation"
+        "lhs": 507,
+        "rhs": 291
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 511,
+        "rhs": 297
     },
     {
         "kind": "N",
         "path": [
-            "_typeMap",
-            "Query"
+            "definitions",
+            3,
+            "fields",
+            0,
+            "type",
+            "type"
         ],
-        "rhs": "Query"
+        "rhs": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Post",
+                "loc": {
+                    "start": 292,
+                    "end": 296
+                }
+            },
+            "loc": {
+                "start": 292,
+                "end": 296
+            }
+        }
     },
     {
-        "kind": "N",
+        "kind": "E",
         "path": [
-            "_typeMap",
-            "Mutation"
+            "definitions",
+            3,
+            "fields",
+            0,
+            "loc",
+            "start"
         ],
-        "rhs": "Mutation"
+        "lhs": 472,
+        "rhs": 284
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            0,
+            "loc",
+            "end"
+        ],
+        "lhs": 511,
+        "rhs": 297
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "name",
+            "value"
+        ],
+        "lhs": "upAuthor",
+        "rhs": "author"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 514,
+        "rhs": 300
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 522,
+        "rhs": 306
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 529,
+        "rhs": 307
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 531,
+        "rhs": 309
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "type",
+            "type",
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 533,
+        "rhs": 311
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "type",
+            "type",
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 536,
+        "rhs": 314
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "type",
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 533,
+        "rhs": 311
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "type",
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 536,
+        "rhs": 314
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 533,
+        "rhs": 311
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 537,
+        "rhs": 315
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "loc",
+            "start"
+        ],
+        "lhs": 529,
+        "rhs": 307
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments",
+            0,
+            "loc",
+            "end"
+        ],
+        "lhs": 537,
+        "rhs": 315
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "type",
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 543,
+        "rhs": 318
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "type",
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 549,
+        "rhs": 324
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 543,
+        "rhs": 318
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 549,
+        "rhs": 324
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "loc",
+            "start"
+        ],
+        "lhs": 514,
+        "rhs": 300
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "loc",
+            "end"
+        ],
+        "lhs": 549,
+        "rhs": 324
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "loc",
+            "start"
+        ],
+        "lhs": 444,
+        "rhs": 269
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            3,
+            "loc",
+            "end"
+        ],
+        "lhs": 551,
+        "rhs": 326
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions"
+        ],
+        "index": 4,
+        "item": {
+            "kind": "D",
+            "lhs": {
+                "kind": "SchemaDefinition",
+                "directives": [],
+                "operationTypes": [
+                    {
+                        "kind": "OperationTypeDefinition",
+                        "operation": "query",
+                        "type": {
+                            "kind": "NamedType",
+                            "name": {
+                                "kind": "Name",
+                                "value": "CustomNameQuery",
+                                "loc": {
+                                    "start": 571,
+                                    "end": 586
+                                }
+                            },
+                            "loc": {
+                                "start": 571,
+                                "end": 586
+                            }
+                        },
+                        "loc": {
+                            "start": 564,
+                            "end": 586
+                        }
+                    },
+                    {
+                        "kind": "OperationTypeDefinition",
+                        "operation": "mutation",
+                        "type": {
+                            "kind": "NamedType",
+                            "name": {
+                                "kind": "Name",
+                                "value": "CustomNameMutation",
+                                "loc": {
+                                    "start": 599,
+                                    "end": 617
+                                }
+                            },
+                            "loc": {
+                                "start": 599,
+                                "end": 617
+                            }
+                        },
+                        "loc": {
+                            "start": 589,
+                            "end": 617
+                        }
+                    }
+                ],
+                "loc": {
+                    "start": 553,
+                    "end": 619
+                }
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "loc",
+            "end"
+        ],
+        "lhs": 620,
+        "rhs": 327
     }
 ]
