@@ -119,6 +119,19 @@
             "fields",
             2,
             "name",
+            "value"
+        ],
+        "lhs": "posts",
+        "rhs": "onlyForEndpoint"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "name",
             "loc",
             "start"
         ],
@@ -137,7 +150,7 @@
             "end"
         ],
         "lhs": 104,
-        "rhs": 47
+        "rhs": 57
     },
     {
         "kind": "E",
@@ -150,20 +163,6 @@
             "kind"
         ],
         "lhs": "NonNullType",
-        "rhs": "ListType"
-    },
-    {
-        "kind": "E",
-        "path": [
-            "definitions",
-            0,
-            "fields",
-            2,
-            "type",
-            "type",
-            "kind"
-        ],
-        "lhs": "ListType",
         "rhs": "NamedType"
     },
     {
@@ -174,72 +173,28 @@
             "fields",
             2,
             "type",
-            "type",
             "type"
         ],
         "lhs": {
-            "kind": "NamedType",
-            "name": {
-                "kind": "Name",
-                "value": "Post",
+            "kind": "ListType",
+            "type": {
+                "kind": "NamedType",
+                "name": {
+                    "kind": "Name",
+                    "value": "Post",
+                    "loc": {
+                        "start": 107,
+                        "end": 111
+                    }
+                },
                 "loc": {
                     "start": 107,
                     "end": 111
                 }
             },
             "loc": {
-                "start": 107,
-                "end": 111
-            }
-        }
-    },
-    {
-        "kind": "E",
-        "path": [
-            "definitions",
-            0,
-            "fields",
-            2,
-            "type",
-            "type",
-            "loc",
-            "start"
-        ],
-        "lhs": 106,
-        "rhs": 50
-    },
-    {
-        "kind": "E",
-        "path": [
-            "definitions",
-            0,
-            "fields",
-            2,
-            "type",
-            "type",
-            "loc",
-            "end"
-        ],
-        "lhs": 112,
-        "rhs": 54
-    },
-    {
-        "kind": "N",
-        "path": [
-            "definitions",
-            0,
-            "fields",
-            2,
-            "type",
-            "type",
-            "name"
-        ],
-        "rhs": {
-            "kind": "Name",
-            "value": "Post",
-            "loc": {
-                "start": 50,
-                "end": 54
+                "start": 106,
+                "end": 112
             }
         }
     },
@@ -255,7 +210,7 @@
             "start"
         ],
         "lhs": 106,
-        "rhs": 49
+        "rhs": 59
     },
     {
         "kind": "E",
@@ -269,7 +224,26 @@
             "end"
         ],
         "lhs": 113,
-        "rhs": 55
+        "rhs": 65
+    },
+    {
+        "kind": "N",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            2,
+            "type",
+            "name"
+        ],
+        "rhs": {
+            "kind": "Name",
+            "value": "String",
+            "loc": {
+                "start": 59,
+                "end": 65
+            }
+        }
     },
     {
         "kind": "E",
@@ -295,51 +269,160 @@
             "end"
         ],
         "lhs": 113,
-        "rhs": 55
+        "rhs": 65
     },
     {
-        "kind": "A",
+        "kind": "E",
         "path": [
             "definitions",
             0,
-            "fields"
+            "fields",
+            3,
+            "name",
+            "value"
         ],
-        "index": 3,
-        "item": {
-            "kind": "D",
-            "lhs": {
-                "kind": "FieldDefinition",
-                "name": {
-                    "kind": "Name",
-                    "value": "different",
-                    "loc": {
-                        "start": 151,
-                        "end": 160
-                    }
-                },
-                "arguments": [],
-                "type": {
-                    "kind": "NamedType",
-                    "name": {
-                        "kind": "Name",
-                        "value": "String",
-                        "loc": {
-                            "start": 162,
-                            "end": 168
-                        }
-                    },
-                    "loc": {
-                        "start": 162,
-                        "end": 168
-                    }
-                },
-                "directives": [],
-                "loc": {
-                    "start": 151,
-                    "end": 168
-                }
+        "lhs": "different",
+        "rhs": "posts"
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "name",
+            "loc",
+            "start"
+        ],
+        "lhs": 151,
+        "rhs": 68
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "name",
+            "loc",
+            "end"
+        ],
+        "lhs": 160,
+        "rhs": 73
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "type",
+            "kind"
+        ],
+        "lhs": "NamedType",
+        "rhs": "ListType"
+    },
+    {
+        "kind": "D",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "type",
+            "name"
+        ],
+        "lhs": {
+            "kind": "Name",
+            "value": "String",
+            "loc": {
+                "start": 162,
+                "end": 168
             }
         }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "type",
+            "loc",
+            "start"
+        ],
+        "lhs": 162,
+        "rhs": 75
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "type",
+            "loc",
+            "end"
+        ],
+        "lhs": 168,
+        "rhs": 81
+    },
+    {
+        "kind": "N",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "type",
+            "type"
+        ],
+        "rhs": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Post",
+                "loc": {
+                    "start": 76,
+                    "end": 80
+                }
+            },
+            "loc": {
+                "start": 76,
+                "end": 80
+            }
+        }
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "loc",
+            "start"
+        ],
+        "lhs": 151,
+        "rhs": 68
+    },
+    {
+        "kind": "E",
+        "path": [
+            "definitions",
+            0,
+            "fields",
+            3,
+            "loc",
+            "end"
+        ],
+        "lhs": 168,
+        "rhs": 81
     },
     {
         "kind": "E",
@@ -350,7 +433,7 @@
             "end"
         ],
         "lhs": 170,
-        "rhs": 57
+        "rhs": 83
     },
     {
         "kind": "E",
@@ -373,7 +456,7 @@
             "start"
         ],
         "lhs": 177,
-        "rhs": 109
+        "rhs": 135
     },
     {
         "kind": "E",
@@ -385,7 +468,7 @@
             "end"
         ],
         "lhs": 181,
-        "rhs": 117
+        "rhs": 143
     },
     {
         "kind": "E",
@@ -412,7 +495,7 @@
             "start"
         ],
         "lhs": 186,
-        "rhs": 122
+        "rhs": 148
     },
     {
         "kind": "E",
@@ -426,7 +509,7 @@
             "end"
         ],
         "lhs": 188,
-        "rhs": 132
+        "rhs": 158
     },
     {
         "kind": "A",
@@ -446,8 +529,8 @@
                     "kind": "Name",
                     "value": "postId",
                     "loc": {
-                        "start": 133,
-                        "end": 139
+                        "start": 159,
+                        "end": 165
                     }
                 },
                 "type": {
@@ -458,25 +541,25 @@
                             "kind": "Name",
                             "value": "Int",
                             "loc": {
-                                "start": 141,
-                                "end": 144
+                                "start": 167,
+                                "end": 170
                             }
                         },
                         "loc": {
-                            "start": 141,
-                            "end": 144
+                            "start": 167,
+                            "end": 170
                         }
                     },
                     "loc": {
-                        "start": 141,
-                        "end": 145
+                        "start": 167,
+                        "end": 171
                     }
                 },
                 "defaultValue": null,
                 "directives": [],
                 "loc": {
-                    "start": 133,
-                    "end": 145
+                    "start": 159,
+                    "end": 171
                 }
             }
         }
@@ -532,7 +615,7 @@
             "start"
         ],
         "lhs": 190,
-        "rhs": 148
+        "rhs": 174
     },
     {
         "kind": "E",
@@ -546,7 +629,7 @@
             "end"
         ],
         "lhs": 194,
-        "rhs": 152
+        "rhs": 178
     },
     {
         "kind": "N",
@@ -562,8 +645,8 @@
             "kind": "Name",
             "value": "Post",
             "loc": {
-                "start": 148,
-                "end": 152
+                "start": 174,
+                "end": 178
             }
         }
     },
@@ -578,7 +661,7 @@
             "start"
         ],
         "lhs": 186,
-        "rhs": 122
+        "rhs": 148
     },
     {
         "kind": "E",
@@ -591,7 +674,7 @@
             "end"
         ],
         "lhs": 194,
-        "rhs": 152
+        "rhs": 178
     },
     {
         "kind": "A",
@@ -734,7 +817,7 @@
             "start"
         ],
         "lhs": 172,
-        "rhs": 104
+        "rhs": 130
     },
     {
         "kind": "E",
@@ -745,7 +828,7 @@
             "end"
         ],
         "lhs": 264,
-        "rhs": 154
+        "rhs": 180
     },
     {
         "kind": "E",
@@ -768,7 +851,7 @@
             "start"
         ],
         "lhs": 312,
-        "rhs": 161
+        "rhs": 187
     },
     {
         "kind": "E",
@@ -780,7 +863,7 @@
             "end"
         ],
         "lhs": 327,
-        "rhs": 165
+        "rhs": 191
     },
     {
         "kind": "E",
@@ -807,7 +890,7 @@
             "start"
         ],
         "lhs": 332,
-        "rhs": 170
+        "rhs": 196
     },
     {
         "kind": "E",
@@ -821,7 +904,7 @@
             "end"
         ],
         "lhs": 336,
-        "rhs": 172
+        "rhs": 198
     },
     {
         "kind": "A",
@@ -920,7 +1003,7 @@
             "start"
         ],
         "lhs": 348,
-        "rhs": 174
+        "rhs": 200
     },
     {
         "kind": "E",
@@ -934,7 +1017,7 @@
             "end"
         ],
         "lhs": 352,
-        "rhs": 178
+        "rhs": 204
     },
     {
         "kind": "N",
@@ -952,13 +1035,13 @@
                 "kind": "Name",
                 "value": "Int",
                 "loc": {
-                    "start": 174,
-                    "end": 177
+                    "start": 200,
+                    "end": 203
                 }
             },
             "loc": {
-                "start": 174,
-                "end": 177
+                "start": 200,
+                "end": 203
             }
         }
     },
@@ -973,7 +1056,7 @@
             "start"
         ],
         "lhs": 332,
-        "rhs": 170
+        "rhs": 196
     },
     {
         "kind": "E",
@@ -986,7 +1069,7 @@
             "end"
         ],
         "lhs": 352,
-        "rhs": 178
+        "rhs": 204
     },
     {
         "kind": "E",
@@ -1013,7 +1096,7 @@
             "start"
         ],
         "lhs": 355,
-        "rhs": 181
+        "rhs": 207
     },
     {
         "kind": "E",
@@ -1027,7 +1110,7 @@
             "end"
         ],
         "lhs": 360,
-        "rhs": 186
+        "rhs": 212
     },
     {
         "kind": "E",
@@ -1080,7 +1163,7 @@
             "start"
         ],
         "lhs": 362,
-        "rhs": 188
+        "rhs": 214
     },
     {
         "kind": "E",
@@ -1094,7 +1177,7 @@
             "end"
         ],
         "lhs": 368,
-        "rhs": 194
+        "rhs": 220
     },
     {
         "kind": "N",
@@ -1110,8 +1193,8 @@
             "kind": "Name",
             "value": "String",
             "loc": {
-                "start": 188,
-                "end": 194
+                "start": 214,
+                "end": 220
             }
         }
     },
@@ -1126,7 +1209,7 @@
             "start"
         ],
         "lhs": 355,
-        "rhs": 181
+        "rhs": 207
     },
     {
         "kind": "E",
@@ -1139,7 +1222,7 @@
             "end"
         ],
         "lhs": 368,
-        "rhs": 194
+        "rhs": 220
     },
     {
         "kind": "E",
@@ -1153,7 +1236,7 @@
             "start"
         ],
         "lhs": 371,
-        "rhs": 197
+        "rhs": 223
     },
     {
         "kind": "E",
@@ -1167,7 +1250,7 @@
             "end"
         ],
         "lhs": 377,
-        "rhs": 203
+        "rhs": 229
     },
     {
         "kind": "A",
@@ -1235,7 +1318,7 @@
             "start"
         ],
         "lhs": 389,
-        "rhs": 205
+        "rhs": 231
     },
     {
         "kind": "E",
@@ -1250,7 +1333,7 @@
             "end"
         ],
         "lhs": 395,
-        "rhs": 211
+        "rhs": 237
     },
     {
         "kind": "E",
@@ -1264,7 +1347,7 @@
             "start"
         ],
         "lhs": 389,
-        "rhs": 205
+        "rhs": 231
     },
     {
         "kind": "E",
@@ -1278,7 +1361,7 @@
             "end"
         ],
         "lhs": 395,
-        "rhs": 211
+        "rhs": 237
     },
     {
         "kind": "E",
@@ -1291,7 +1374,7 @@
             "start"
         ],
         "lhs": 371,
-        "rhs": 197
+        "rhs": 223
     },
     {
         "kind": "E",
@@ -1304,7 +1387,7 @@
             "end"
         ],
         "lhs": 395,
-        "rhs": 211
+        "rhs": 237
     },
     {
         "kind": "A",
@@ -1322,8 +1405,8 @@
                     "kind": "Name",
                     "value": "votes",
                     "loc": {
-                        "start": 214,
-                        "end": 219
+                        "start": 240,
+                        "end": 245
                     }
                 },
                 "arguments": [],
@@ -1333,19 +1416,19 @@
                         "kind": "Name",
                         "value": "Int",
                         "loc": {
-                            "start": 221,
-                            "end": 224
+                            "start": 247,
+                            "end": 250
                         }
                     },
                     "loc": {
-                        "start": 221,
-                        "end": 224
+                        "start": 247,
+                        "end": 250
                     }
                 },
                 "directives": [],
                 "loc": {
-                    "start": 214,
-                    "end": 224
+                    "start": 240,
+                    "end": 250
                 }
             }
         }
@@ -1359,7 +1442,7 @@
             "start"
         ],
         "lhs": 307,
-        "rhs": 156
+        "rhs": 182
     },
     {
         "kind": "E",
@@ -1370,7 +1453,7 @@
             "end"
         ],
         "lhs": 397,
-        "rhs": 226
+        "rhs": 252
     },
     {
         "kind": "E",
@@ -1393,7 +1476,7 @@
             "start"
         ],
         "lhs": 449,
-        "rhs": 274
+        "rhs": 300
     },
     {
         "kind": "E",
@@ -1405,7 +1488,7 @@
             "end"
         ],
         "lhs": 467,
-        "rhs": 279
+        "rhs": 305
     },
     {
         "kind": "E",
@@ -1432,7 +1515,7 @@
             "start"
         ],
         "lhs": 472,
-        "rhs": 284
+        "rhs": 310
     },
     {
         "kind": "E",
@@ -1446,7 +1529,7 @@
             "end"
         ],
         "lhs": 482,
-        "rhs": 289
+        "rhs": 315
     },
     {
         "kind": "A",
@@ -1545,7 +1628,7 @@
             "start"
         ],
         "lhs": 507,
-        "rhs": 291
+        "rhs": 317
     },
     {
         "kind": "E",
@@ -1559,7 +1642,7 @@
             "end"
         ],
         "lhs": 511,
-        "rhs": 297
+        "rhs": 323
     },
     {
         "kind": "N",
@@ -1577,13 +1660,13 @@
                 "kind": "Name",
                 "value": "Post",
                 "loc": {
-                    "start": 292,
-                    "end": 296
+                    "start": 318,
+                    "end": 322
                 }
             },
             "loc": {
-                "start": 292,
-                "end": 296
+                "start": 318,
+                "end": 322
             }
         }
     },
@@ -1598,7 +1681,7 @@
             "start"
         ],
         "lhs": 472,
-        "rhs": 284
+        "rhs": 310
     },
     {
         "kind": "E",
@@ -1611,7 +1694,7 @@
             "end"
         ],
         "lhs": 511,
-        "rhs": 297
+        "rhs": 323
     },
     {
         "kind": "E",
@@ -1638,7 +1721,7 @@
             "start"
         ],
         "lhs": 514,
-        "rhs": 300
+        "rhs": 326
     },
     {
         "kind": "E",
@@ -1652,7 +1735,7 @@
             "end"
         ],
         "lhs": 522,
-        "rhs": 306
+        "rhs": 332
     },
     {
         "kind": "E",
@@ -1668,7 +1751,7 @@
             "start"
         ],
         "lhs": 529,
-        "rhs": 307
+        "rhs": 333
     },
     {
         "kind": "E",
@@ -1684,7 +1767,7 @@
             "end"
         ],
         "lhs": 531,
-        "rhs": 309
+        "rhs": 335
     },
     {
         "kind": "E",
@@ -1702,7 +1785,7 @@
             "start"
         ],
         "lhs": 533,
-        "rhs": 311
+        "rhs": 337
     },
     {
         "kind": "E",
@@ -1720,7 +1803,7 @@
             "end"
         ],
         "lhs": 536,
-        "rhs": 314
+        "rhs": 340
     },
     {
         "kind": "E",
@@ -1737,7 +1820,7 @@
             "start"
         ],
         "lhs": 533,
-        "rhs": 311
+        "rhs": 337
     },
     {
         "kind": "E",
@@ -1754,7 +1837,7 @@
             "end"
         ],
         "lhs": 536,
-        "rhs": 314
+        "rhs": 340
     },
     {
         "kind": "E",
@@ -1770,7 +1853,7 @@
             "start"
         ],
         "lhs": 533,
-        "rhs": 311
+        "rhs": 337
     },
     {
         "kind": "E",
@@ -1786,7 +1869,7 @@
             "end"
         ],
         "lhs": 537,
-        "rhs": 315
+        "rhs": 341
     },
     {
         "kind": "E",
@@ -1801,7 +1884,7 @@
             "start"
         ],
         "lhs": 529,
-        "rhs": 307
+        "rhs": 333
     },
     {
         "kind": "E",
@@ -1816,7 +1899,53 @@
             "end"
         ],
         "lhs": 537,
-        "rhs": 315
+        "rhs": 341
+    },
+    {
+        "kind": "A",
+        "path": [
+            "definitions",
+            3,
+            "fields",
+            1,
+            "arguments"
+        ],
+        "index": 1,
+        "item": {
+            "kind": "N",
+            "rhs": {
+                "kind": "InputValueDefinition",
+                "name": {
+                    "kind": "Name",
+                    "value": "name",
+                    "loc": {
+                        "start": 343,
+                        "end": 347
+                    }
+                },
+                "type": {
+                    "kind": "NamedType",
+                    "name": {
+                        "kind": "Name",
+                        "value": "String",
+                        "loc": {
+                            "start": 349,
+                            "end": 355
+                        }
+                    },
+                    "loc": {
+                        "start": 349,
+                        "end": 355
+                    }
+                },
+                "defaultValue": null,
+                "directives": [],
+                "loc": {
+                    "start": 343,
+                    "end": 355
+                }
+            }
+        }
     },
     {
         "kind": "E",
@@ -1831,7 +1960,7 @@
             "start"
         ],
         "lhs": 543,
-        "rhs": 318
+        "rhs": 358
     },
     {
         "kind": "E",
@@ -1846,7 +1975,7 @@
             "end"
         ],
         "lhs": 549,
-        "rhs": 324
+        "rhs": 364
     },
     {
         "kind": "E",
@@ -1860,7 +1989,7 @@
             "start"
         ],
         "lhs": 543,
-        "rhs": 318
+        "rhs": 358
     },
     {
         "kind": "E",
@@ -1874,7 +2003,7 @@
             "end"
         ],
         "lhs": 549,
-        "rhs": 324
+        "rhs": 364
     },
     {
         "kind": "E",
@@ -1887,7 +2016,7 @@
             "start"
         ],
         "lhs": 514,
-        "rhs": 300
+        "rhs": 326
     },
     {
         "kind": "E",
@@ -1900,7 +2029,7 @@
             "end"
         ],
         "lhs": 549,
-        "rhs": 324
+        "rhs": 364
     },
     {
         "kind": "E",
@@ -1911,7 +2040,7 @@
             "start"
         ],
         "lhs": 444,
-        "rhs": 269
+        "rhs": 295
     },
     {
         "kind": "E",
@@ -1922,7 +2051,7 @@
             "end"
         ],
         "lhs": 551,
-        "rhs": 326
+        "rhs": 366
     },
     {
         "kind": "A",
@@ -1997,6 +2126,6 @@
             "end"
         ],
         "lhs": 620,
-        "rhs": 327
+        "rhs": 367
     }
 ]
